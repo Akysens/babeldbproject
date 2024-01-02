@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+.input-label, p, option, h1, h2, h3, a, td, th {
+    font-family: "Work Sans", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 10%; 
+}
+
+h3 {
+    text-align: center;
+    font-size: small;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    margin: 10% 20% 0 20%;
+    padding: 1%;
+}
+
+.main-wrapper {
+    display: block;
+}
+
+.card-wrapper {
+    text-align: center;
+    margin: 3% auto;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #181613;
+    width: 30%;
+    min-width: 600px;
+    padding: 5%;
+}
+
+.search-result-card {
+    width: 80%;
+}
+
+form {
+    width: 100%;
+    text-align: center;
+}
+
+select, .input-button, input {
+    padding: 1%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(171, 171, 171);
+}
+
+.input-text-box {
+    width: 40%;
+}
+
+.input-number-box {
+    width: 20%;
+}
+
+.form-input-block {
+    display: block;
+    margin: 3%;
+}
+
+#input-result {
+    margin: 3%;
+}
+
+#search-all {
+    width: 85%;
+}
+
+table  {
+    border-collapse: collapse;
+    margin: 0 auto 3% auto;
+    min-width: fit-content;
+    width: 95%;
+}
+
+tr {
+    padding: 1% 2%;
+}
+
+th {
+    text-align: left;
+    border-width: 1px 0 1px 0;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #181613;
+    padding: 1.5% 0.5%;
+    width: fit-content;
+}
+
+td {
+    text-align: left;
+    padding: 1.5% 0.5%;
+    width: fit-content;
+}
+
+/*  BABEL Navbar CSS   */
+
+.logo-navbar {
+    float: left;
+    margin: 0;
+}
+
+#title-navbar {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5%;
+    overflow: hidden;
+    background-color: #110f09;
+}
+
+.navbarelem {
+    font-family: "Work Sans", sans-serif;
+    font-size: large;
+    float: right;
+}
+  
+.navbarelemlink {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.1s ease-out 100ms;
+}
+
+li a:hover {
+    background-color: #2D2A23;
+  }
+  
+.navbar-wrapper {
+    margin: 0 0;
+}

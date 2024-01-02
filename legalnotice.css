@@ -1,0 +1,126 @@
+body {
+  background-color: #181613;
+  margin: 0;
+}
+
+.logo-navbar {
+  float: left;
+  margin: 0;
+}
+
+#title-navbar {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+  /* Turn off the navbar title shorter when screen is small*/
+
+  #title-navbar {
+    display: none;
+  }
+}
+
+.box-with-header-and-text {
+  margin: 4% 4% 0 4%;
+}
+
+ul {
+    color:#F5F5F5;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.logo-navbar {
+  float: left;
+}
+
+.navbar-wrapper {
+  margin: 0 0;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 2%;
+  overflow: hidden;
+  background-color: #110f09;
+}
+
+.navbarelem {
+  font-family: "Work Sans", sans-serif;
+  font-size: large;
+  float: right;
+}
+
+.navbarelemlink {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.1s ease-out 100ms;
+}
+
+li a:hover {
+  background-color: #2D2A23;
+}
+
+h1 {
+  animation: fade-up 0.5s;
+  color: #f2c983;
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  font-size: 90px;
+  line-height: 0;
+}
+
+h2 {
+  animation: fade-up 0.5s;
+  color: #f2c983;
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  font-size: 30px;
+}
+
+h3 {
+  animation: fade-up 0.5s;
+  color:#F5F5F5;
+  text-align: center;
+}
+
+p {
+  animation: fade-in 0.5s;
+  margin: 0 5%;
+  text-align: center;
+  color:#F5F5F5;
+  font-family: "Work Sans", sans-serif;
+  font-size: large;
+}
+
+
+/* Animation */
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
