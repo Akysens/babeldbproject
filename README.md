@@ -1,5 +1,9 @@
-# How to Use #
+# Babel E-Library System
+This product is made by Enes Aksay, Santiago Ham and Zeynep Tan as coursework for the course "Databases and Web Services".
+The project is an accumulation of assignments and needs a working SQL database, credentials of which should be entered to "req.php" files in all folders.
+Repository is for showcasing code and work.
 
+## How to Use ##
 Logging in through the main page takes the user to the search page.
 
 ## **Search Page** ##
